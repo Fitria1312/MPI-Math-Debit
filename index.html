@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#166534" />
+  <title>EduKelas VI — SD Negeri 2 Dabun Gelang</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">VI</div><div><strong>EduKelas VI</strong><small>SD Negeri 2 Dabun Gelang</small></div></div>
+    <div class="top-actions"><button class="ghost" id="printBtn">🖨️ Cetak</button><button class="primary" id="downloadBtn">⬇️ Unduh Laporan</button></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <button class="nav active" data-page="dashboard">🏠 Dashboard</button>
+      <button class="nav" data-page="materi">📚 Materi Pembelajaran</button>
+      <button class="nav" data-page="kegiatan">📝 Catat Kegiatan</button>
+      <button class="nav" data-page="laporan">📊 Laporan</button>
+      <button class="nav" data-page="pengaturan">⚙️ Pengaturan</button>
+      <div class="side-note"><b>Kelas VI SD</b><br>Matematika • Bahasa Indonesia • Pendidikan Pancasila • SBDP • IPAS • Bahasa Inggris • Koding</div>
+    </aside>
+    <main id="app" class="content"></main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
